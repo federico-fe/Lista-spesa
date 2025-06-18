@@ -1,0 +1,207 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#categorie, textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  flex: 1 1 auto;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#lista {
+  margin-top: 20px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+#status {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.3em;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  #categorie, textarea {
+    height: 100px;
+    font-size: 0.95em;
+  }
+}
+
+
+.categoria-block {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+
+.categoria-block input {
+  flex: 1 1 45%;
+  padding: 5px;
+}
+
+.categoria-block button {
+  flex: 0 0 auto;
+  background-color: #dc3545;
+}
+
+.categoria-block button:hover {
+  background-color: #c82333;
+}
+
+
+/* Punto 2: Bottoni più moderni */
+button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Punto 3: Sezioni categoria come card */
+#lista > div {
+  background-color: #f9fafb;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+#lista h3 {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: #111827;
+}
+
+/* Punto 4: Miglioramento rimozione icona */
+li button {
+  background-color: #ef4444;
+  margin-left: 10px;
+}
+li button:hover {
+  background-color: #dc2626;
+}
+
+/* Punto 5: Editor categorie in blocchi */
+#categorie-editor .categoria-block {
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#categorie-editor input {
+  flex: 1;
+  padding: 5px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+#categorie-editor button {
+  background-color: #9ca3af;
+}
+#categorie-editor button:hover {
+  background-color: #6b7280;
+}
+
+
+/* 🌸🔵 Pastel Red & Blue Theme */
+body {
+  background-color: #fdf2f8; /* very light pink base */
+  color: #1f2937;
+}
+
+textarea, input[type="text"] {
+  background-color: #fff1f2;
+  border-color: #fecdd3;
+}
+
+button {
+  background-color: #bfdbfe; /* pastel blue */
+  color: #1e3a8a;
+}
+button:hover {
+  background-color: #93c5fd;
+}
+
+#lista > div {
+  background-color: #ffe4e6; /* light red card */
+  border-color: #fecdd3;
+}
+
+#lista h3 {
+  color: #9d174d; /* dark pastel red */
+}
+
+#categorie-editor .categoria-block {
+  background-color: #e0f2fe; /* pastel blue block */
+}
+
+li button {
+  background-color: #fca5a5;
+}
+li button:hover {
+  background-color: #ef4444;
+}
