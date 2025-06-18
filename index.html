@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista della Spesa Intelligente</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🛒 Lista della Spesa</h1>
+  <textarea id="input" placeholder="Inserisci la tua lista (es. latte, pane, pomodori)"></textarea>
+  <div class="buttons">
+    <button onclick="generaLista()">Genera Lista</button>
+    <button onclick="cancellaLista()">🗑️ Cancella Tutto</button>
+    <button onclick="condividiWhatsApp()">📲 WhatsApp</button>
+    <button onclick="window.print()">🖨️ Stampa / PDF</button>
+  </div>
+  <div id="lista"></div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
